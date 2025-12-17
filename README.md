@@ -1,162 +1,262 @@
-# 📊 Painel Crédito Fácil  
-Dashboard Executivo de Crédito, Risco e Rentabilidade
+<p align="right">
+  <a href="README.md">
+    <img src="https://img.shields.io/badge/language-English-blue.svg" />
+  </a>
+  <a href="README.pt-BR.md">
+    <img src="https://img.shields.io/badge/idioma-Português-green.svg" />
+  </a>
+</p>
+
+# 📊 PAINEL CRÉDITO FÁCIL  
+### Dashboard Executivo de Crédito, Risco e Rentabilidade
 
 ---
 
 ## 📌 Visão Geral
 
-O Painel **Crédito Fácil** centraliza, monitora e analisa todo o ciclo operacional do produto de crédito consignado privado.  
-Ele foi construído para fornecer **visibilidade executiva**, **governança de risco** e **inteligência financeira** para tomada de decisão rápida e assertiva.
+O **Painel Crédito Fácil** centraliza, monitora e analisa **todo o ciclo operacional, financeiro e de risco** do produto de crédito consignado privado.
 
-O modelo consolida dados de contas, liberações, limites, elegibilidade, receitas e comportamento de consumo, transformando tudo em um storytelling executivo claro e orientado ao negócio.
+O dashboard foi desenhado para oferecer **visibilidade executiva**, **governança financeira** e **inteligência de negócio**, permitindo que a liderança acompanhe **crescimento, rentabilidade, eficiência e saúde da carteira** em tempo real.
 
----
+A solução consolida dados de:
 
-## 🎯 Objetivos Principais
+- contas e colaboradores  
+- elegibilidade e limites  
+- liberações e contratos  
+- recebimentos e inadimplência  
+- receitas BCJ, Fundo e Parceiros  
 
-- Medir o **crescimento da carteira** (volume + quantidade).
-- Acompanhar a **rentabilidade líquida** do produto.
-- Controlar a **capacidade financeira** e risco de alavancagem.
-- Avaliar **aderência** entre elegíveis e utilizadores.
-- Identificar **grupos que mais consomem crédito** (salário, idade, região).
-- Oferecer visibilidade de **governança e performance** para alta gestão.
+transformando dados operacionais complexos em um **storytelling executivo claro, objetivo e orientado à tomada de decisão**.
 
 ---
 
-## 📊 Indicadores do Topo (Cards Executivos)
+## 🎯 Objetivos Estratégicos do Painel
 
-### **1. Qtd Contratos Concedidos**
-Total acumulado de contratos ativos concedidos.
+O painel responde, de forma estruturada, às principais necessidades da alta gestão:
 
-### **2. Valor Concedido Acumulado**
-Montante financeiro total concedido pela operação.
+### 📈 Medir o crescimento da carteira
+- Volume financeiro concedido  
+- Quantidade de contratos  
+- Evolução temporal (mensal e acumulada)  
 
-### **3. Ticket Médio**
-Valor médio concedido por contrato acumulado.
+### 💰 Avaliar a rentabilidade real do produto
+- Receita líquida BCJ  
+- Receita líquida do Fundo  
+- Receita total consolidada  
+- Margens sobre capital e funding  
 
-### **4. Valor Recebido Acumulado + % Recuperação**
-Quanto do total concedido já retornou à operação.  
-O % de recuperação mede eficiência que já retornou para a carteira.
+### ⚠️ Controlar risco e alavancagem
+- Capacidade financeira baseada em salário  
+- Limite disponível vs. utilizado  
+- Indicadores de inadimplência e vencidos  
 
-### **5. Valor a Receber Acumulado**
-Montante ainda pendente de recebimento.
+### 👥 Analisar adesão e comportamento
+- Elegíveis vs. utilizadores  
+- Perfil por faixa salarial, idade e região  
+- Empresas mais relevantes na carteira  
 
-### **6. Receita BCJ Líquida Acumulada + Margem**
-Mostra a receita da tarifa cobrada BCJ.  
-O % de margem demonstra eficiência da receita, comparando receita líquida BCJ vs capital concedido.
-
-### **7. Receita Fundo Líquida Acumulada + Margem**
-Mesma lógica do indicador anterior, porém aplicada ao Fundo.  
-
-### **8. Receita Total (BCJ + Fundo)**
-Consolida a visão de receita BCJ + Fundo.
-
----
-
-## 📈 Componentes Analíticos
-
-### **Total Aprovado e Status de Elegibilidade**
-Mostra quantas contas aprovadas estão aptas a aderir ao Crédito Fácil.  
-Responde:  
-> *Do total de contas aprovadas, quantas são elegível ao produto?*
-
-### **Elegíveis Utilizando x Não Utilizando**
-Monitora adesão real dos colaboradores elegíveis.  
-Responde:  
-> *Do total de colaboradores elegíveis, quantos estão utilizando o produto?*
-
-### **QTD de Contratos Concedidos x Previsto Mês**
-Evolução temporal da quantidade de contratos concedidos x Previsto (meta).
-
-### **Valor Concedido x Previsto por Mês**
-Evolução financeira mensal do produto x Previsto (meta).
-
-### **Salário x Capacidade de Limite**
-Indicador estratégico governaça de disponibilização de capital.
-
-Responde:
-- *Estamos operando abaixo, dentro ou acima do limite saudável de alavancagem?*
-
-Permite medir o espaço real ainda disponível para expansão com segurança.
-
-### **Ranking de Crédito Concedido por Empresa**
-Identifica as empresas mais relevantes no ciclo do produto.  
-Ajuda a priorizar ações comerciais e análises de risco.
-
-### **Distribuição por Faixa Salarial**
-Quem mais utiliza crédito?  
-Permite entender elasticidade e comportamento de consumo por faixa de remuneração.
-
-### **Distribuição por Faixa Etária**
-Complementa o perfil comportamental, indicando quais grupos têm maior propensão a contratar crédito.
-
-### **Valor Concedido por Região**
-Mapa estratégico com concentração geográfica da operação.
+### 🛡 Garantir governança e transparência
+- Indicadores padronizados  
+- Regras claras de cálculo  
+- Visão única e confiável para decisões executivas  
 
 ---
 
-## 📊 Visão Analítica Completa
+## 📊 Indicadores Executivos – Cards do Topo
 
-A visão tabular permite análises detalhadas por empresa:
+Os cards superiores funcionam como um **cockpit executivo**, oferecendo leitura rápida do estado atual da operação.
 
-- Contas aprovadas  
-- Elegíveis ao crédito  
-- Utilizando crédito  
-- Salário acumulado  
-- Limite acumulado  
-- Contratos por período  
-- Comparação entre meses  
-- Atrasos / utilização real  
-- Margem realizada  
-- Desempenho frente ao limite disponível  
+### 1️⃣ Qtd. Contratos Concedidos (Acumulado)
+Total de contratos efetivamente concedidos e ativos no período.  
+➡️ Mede **adoção e crescimento operacional**.
 
-É uma ferramenta tática para gestão operacional e auditoria do produto.
+### 2️⃣ Valor Desembolsado Acumulado
+Montante financeiro total concedido pela operação.  
+➡️ Representa o **tamanho real da carteira ativa**.
 
----
+### 3️⃣ Ticket Médio
+Valor médio concedido por contrato.  
+➡️ Indica **perfil de consumo e estratégia de crédito**.
 
-## 🧠 Narrativa Executiva – Perguntas Respondidas pelo Painel
+### 4️⃣ Valor Recebido Acumulado + % Recuperação
+Quanto do valor concedido já retornou para a operação.  
+➡️ Mede **eficiência de recebimento e saúde financeira**.
 
-O painel entrega respostas diretas às perguntas centrais de negócio:
+### 5️⃣ Valor em Aberto / A Receber
+Montante ainda pendente de recebimento.  
+➡️ Base para **análise de risco e inadimplência**.
 
-### **1. A carteira está crescendo? Em que ritmo?**  
-Visualização clara de evolução mensal de quantidade e volume concedido.
+### 6️⃣ Receita Líquida BCJ Acumulada + Margem
+Receita líquida gerada pela BCJ.  
+➡️ A margem demonstra a **eficiência da monetização** sobre o capital concedido.
 
-### **2. Qual é a rentabilidade real do produto?**  
-Receita líquida, margens e performance por fonte de capital.
+### 7️⃣ Receita Líquida Fundo Acumulada + Margem
+Receita líquida gerada pelo Fundo.  
+➡️ Avalia a **rentabilidade do funding**.
 
-### **3. A operação está dentro da capacidade financeira permitida?**  
-Análise integrada de salário acumulado vs limite acumulado.
-
-### **4. Quais empresas são mais relevantes para o produto?**  
-Ranking por valor e quantidade.
-
-### **5. A adesão entre elegíveis está adequada?**  
-Medição de engajamento e conversão do público elegível.
-
-### **6. Quem mais consome crédito?**  
-Distribuições por:
-
-- Faixa salarial  
-- Faixa etária  
-- Região  
-
-### **7. Qual é a saúde operacional da carteira?**  
-Indicadores de vencidos, adiantados, em aberto e liquidações.
-
-Toda essa narrativa foi estruturada para garantir **clareza, segurança e velocidade** nas decisões executivas.
+### 8️⃣ Receita Total (BCJ + Fundo)
+Visão consolidada de resultado econômico do produto.  
+➡️ Indicador-chave para o **resultado final da operação**.
 
 ---
 
-## 🛠 Arquitetura e Tecnologias
+## 📈 Componentes Analíticos e Visuais
+
+### 🔹 Status de Elegibilidade
+Mostra o total de colaboradores:
+- Elegíveis  
+- Não elegíveis  
+
+**Pergunta respondida:**  
+> Qual é o potencial real da base para crescimento do produto?
+
+---
+
+### 🔹 Elegíveis Utilizando x Não Utilizando
+Compara quem pode usar crédito vs. quem efetivamente utiliza.  
+➡️ Mede **taxa de conversão e engajamento**.
+
+---
+
+### 🔹 Qtd. Contratos Concedidos x Meta (Mensal)
+Evolução mensal da quantidade concedida comparada à meta.  
+➡️ Controle de **performance comercial**.
+
+---
+
+### 🔹 Valor Concedido x Meta (Mensal)
+Comparação financeira entre realizado e previsto.  
+➡️ Avalia **ritmo de crescimento e execução financeira**.
+
+---
+
+### 🔹 Salário x Capacidade de Limite
+Indicador crítico de **governança financeira**.
+
+**Pergunta respondida:**  
+> Estamos operando dentro de uma capacidade saudável de alavancagem?
+
+---
+
+### 🔹 Ranking de Crédito por Empresa
+Ranking das empresas com maior volume concedido.  
+➡️ Direciona:
+- foco comercial  
+- análises de risco  
+- priorização estratégica  
+
+---
+
+### 🔹 Distribuição por Faixa Salarial
+Identifica quais faixas mais consomem crédito.  
+➡️ Analisa **elasticidade e comportamento financeiro**.
+
+---
+
+### 🔹 Distribuição por Faixa Etária
+Perfil de consumo por idade.  
+➡️ Apoia decisões de **política de crédito e risco**.
+
+---
+
+### 🔹 Valor Concedido por Região
+Mapa geográfico da carteira.  
+➡️ Identifica **concentração regional e exposição geográfica**.
+
+---
+
+## 📊 Visão Analítica Detalhada (Tabela Executiva)
+
+A visão tabular permite análise profunda por empresa, reunindo:
+
+- contas aprovadas  
+- elegíveis ao crédito  
+- colaboradores utilizando  
+- salário acumulado  
+- limite máximo disponível  
+- contratos concedidos por período  
+- atrasos e vencidos  
+- margens e performance financeira  
+
+➡️ Ferramenta **tática e de auditoria**, utilizada para:
+- acompanhamento operacional  
+- validação de números  
+- análises pontuais de risco  
+
+---
+
+## 💰 Visão de Rentabilidade (BCJ • Fundo • Total)
+
+A aba **Rentabilidade** consolida o resultado financeiro do produto.
+
+### Estrutura Analítica
+- Operação  
+- BCJ  
+- Fundo  
+- Funding  
+- Total Consolidado  
+- Parceiros (quando aplicável)  
+
+### Métricas-chave
+- Valores absolutos (R$)  
+- % sobre o Valor Total  
+- % sobre Funding  
+- Evolução mensal  
+- Comparação acumulada  
+
+➡️ Entrega **transparência total do resultado econômico**, permitindo leitura clara de:
+- quem gera resultado  
+- onde está a margem  
+- como a rentabilidade evolui no tempo  
+
+---
+
+## 🚨 Indicadores de Inadimplência
+
+- Valor em aberto  
+- % sobre o total concedido  
+- % sobre funding  
+
+➡️ Permite monitorar a **saúde da carteira**, antecipar riscos e ajustar políticas.
+
+---
+
+## 🧠 Perguntas Executivas Respondidas pelo Painel
+
+- A carteira está crescendo? Em qual ritmo?  
+- O produto é rentável? Onde está a margem?  
+- A operação está dentro da capacidade financeira segura?  
+- Quais empresas e perfis são mais relevantes?  
+- A adesão entre elegíveis está adequada?  
+- Onde estão os riscos de inadimplência?  
+- O resultado final justifica expansão ou ajuste?  
+
+---
+
+## 🛠 Arquitetura e Governança Analítica
 
 | Componente | Descrição |
-|-----------|-----------|
-| **Power BI** | Modelagem, ETL leve, DAX e storytelling visual |
-| **SQL / Tabelas Fact & Dim** | Tratamento e padronização de dados |
-| **Modelagem Star Schema** | Separação entre Fatos e Dimensões |
-| **DAX Otimizado** | Medidas com regras de negócio e lógica temporal |
-| **Camada de Governança** | Verificações, filtros e consistência analítica |
+|----------|----------|
+| Power BI | Visual, DAX e storytelling executivo |
+| Modelagem Star Schema | Separação clara de fatos e dimensões |
+| DAX com regras de negócio | Métricas auditáveis e consistentes |
+| Camada de Governança | Controle de filtros, datas e contexto |
+| Narrativa Executiva | Dados traduzidos em decisão |
 
 ---
 
+## ✅ Resumo Executivo
+
+O **Painel Crédito Fácil** não é apenas um dashboard.  
+É uma **ferramenta estratégica de gestão**, construída para:
+
+- suportar decisões executivas  
+- garantir governança financeira  
+- controlar risco e alavancagem  
+- maximizar eficiência e rentabilidade  
+- sustentar crescimento seguro e escalável  
+
+---
+
+**Este painel entrega clareza, confiança e controle para a alta liderança.**
 
